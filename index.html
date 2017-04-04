@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Login to your account:</h2>
+          <form id="login">
+            <div class="form-group">
+              <label for="name">Account Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="name">Password</label>
+              <input type="text" class="form-control" id="password">
+            </div>
+            <button type="submit" name="button">log in</button>
+          </form>
+          <form id="deposit">
+            <div class="form-group">
+              <label for="deposits">Make a deposit/withdrawl</label>
+              <input type="text" class="form-control" id="deposits">
+            </div>
+            <button type="submit" name="button">deposit money, please!!!</button>
+            <button type="button" id="logout">logout</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id='display'>
+            <p id='nameShow'></p>
+            <p id='balanceShow'></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
